@@ -1,4 +1,4 @@
-// Write a program in C to take two numbers from the user and find the difference between them.
+// Write a program in C to take two numbers from the user and find the difference(subtraction) between them.
 #include <stdio.h>
 
 int main()
