@@ -1,4 +1,4 @@
-// Write a program in C to check whether the input number is even or odd using a function.
+// Write a program in C to check whether the input number is even or odd using the concept of function.
 #include <stdio.h>
 
 void function(int x); // function declaration
