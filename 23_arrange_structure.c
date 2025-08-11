@@ -11,7 +11,7 @@ struct student // structure definition
 int main() 
 {
     int n;
-    printf("Enter total number of students: ");
+    printf("Enter the total number of students: ");
     scanf("%d", &n);
 
     struct student p[n], temp; // Structure variable definition using array of structure
