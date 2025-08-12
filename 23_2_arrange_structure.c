@@ -1,6 +1,5 @@
-// Write a program in C to arrange in ascending order on the basis of name and display the name, age and address of n number of students by using the concept of structure.
+// Write a program in C to arrange in ascending order on the basis of age and display the name, age and address of n number of students by using the concept of structure.
 #include <stdio.h>
-#include <string.h>
 
 struct student // structure definition
 {
@@ -8,7 +7,7 @@ struct student // structure definition
     int age;
 };
 
-int main() 
+int main()
 {
     int n;
     printf("Enter the total number of students: ");
@@ -29,7 +28,7 @@ int main()
     {
         for (int j = 0; j < n - i - 1; j++)
         {
-            if (strcmp(p[j].name, p[j + 1].name) > 0)
+            if (p[j].age > p[j + 1].age)
             {
                 temp = p[j];
                 p[j] = p[j + 1];
@@ -38,7 +37,7 @@ int main()
         }
     }
 
-    printf("The details of the students arranged in ascending order are:\n");
+    printf("The details of the students arranged in ascending order on the basis of age are:\n");
     for (int i = 0; i < n; i++)
     {
         printf("The name of student %d is %s. ", i + 1, p[i].name);
