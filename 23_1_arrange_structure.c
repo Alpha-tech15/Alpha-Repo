@@ -1,4 +1,4 @@
-// Write a program in C to arrange in ascending order on the basis of name and display the name, age and address of n number of students by using the concept of structure.
+// Write a program in C to take name, age and address of n number of students from the user and arrange them in ascending order on the basis of name by using the concept of structure.
 #include <stdio.h>
 #include <string.h>
 
