@@ -3,19 +3,20 @@
 
 int main()
 {
-    int data[2], *ptr[2];
-    for (int i = 0; i < 2; i++)
-    {
-        printf("Enter two numbers: ");
-        scanf("%d", &data[i]);
-        ptr[i] = &data[i];
-    }
+    int data[2], *ptr1, *ptr2;
+    printf("Enter first number: ");
+    scanf("%d", &data[0]);
+    printf("Enter second number: ");
+    scanf("%d", &data[1]);
 
-    if (*ptr[0] > *ptr[1])
+    ptr1 = &data[0];
+    ptr2 = &data[1];
+
+    if (*ptr1 > *ptr2)
     {
         printf("First number is greater than second number.\n");
     }
-    else if (*ptr[0] < *ptr[1])
+    else if (*ptr1 < *ptr2)
     {
         printf("Second number is greater than first number.\n");
     }
