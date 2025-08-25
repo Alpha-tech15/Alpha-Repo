@@ -1,0 +1,5 @@
+Name: Arun
+Class: 12
+Mark in first subject: 95
+Mark in second subject: 85
+Mark in third subject: 75

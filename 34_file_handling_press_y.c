@@ -1,3 +1,6 @@
+/*  Write a program in C to create a datafile "student.txt" contain name, age and marks obtained in 3 different subjects 
+    of few students and add feature press 'Y' to continue until user wants to add more students.
+*/
 #include <stdio.h>
 #include <string.h>
 
@@ -7,7 +10,7 @@ int main()
     int class, marks[3];
 
     FILE *fptr;
-    fptr = fopen("student.txt", "a");
+    fptr = fopen("student.txt", "w");
     do
     {
         printf("Enter the name of the student: ");
