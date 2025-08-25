@@ -1,4 +1,0 @@
-Name: Alpha
-Disease: Fever
-Age: 17
-Bed number: 200
