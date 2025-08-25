@@ -26,7 +26,7 @@ int main()
         }
 
         fprintf(fptr, "Name: %s\nClass: %d\n", name, class);
-        fprintf(fptr, "Mark in first subject: %d\nMark in second subject: %d\nMark in third subject: %d\n", marks[0], marks[1], marks[2]);
+        fprintf(fptr, "Marks in first subject: %d\nMarks in second subject: %d\nMarks in third subject: %d\n", marks[0], marks[1], marks[2]);
 
         printf("Press Y to continue: ");
         scanf("%s", choice);
