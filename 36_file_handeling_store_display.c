@@ -1,4 +1,5 @@
-// Write a program in C to store id, name and post of n number of employee in the file "employee.txt" and display the details using the concept of structure. Also arrange in ascending order on the basis of name.
+// Write a program in C to store id, name and post of n number of employee in the file "employee.txt" and
+// display the details using the concept of structure. Also arrange in ascending order on the basis of name.
 #include <stdio.h>
 #include <string.h>
 
@@ -50,7 +51,7 @@ int main()
     fptr = fopen("employee.txt", "r");
     while (fscanf(fptr, "%d %s %s\n", &temp.id, temp.name, temp.post) != EOF)
     {
-        printf("Name: %s\nID: %d\nPost: %s\n", temp.name, temp.id, temp.post);
+        printf("ID: %d\nName: %s\nPost: %s\n", temp.id, temp.name, temp.post);
     }
     fclose(fptr);
 
