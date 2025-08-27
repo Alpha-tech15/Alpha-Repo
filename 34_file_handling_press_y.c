@@ -1,6 +1,5 @@
-/*  Write a program in C to create a datafile "student.txt" contain name, age and marks obtained in 3 different subjects 
-    of few students and add feature press 'Y' to continue until user wants to add more students.
-*/
+// Write a program in C to create a datafile "student.txt" contain name, age and marks obtained in 3 different subjects 
+// of few students and add feature press 'Y' to continue until user wants to add more students.
 #include <stdio.h>
 #include <string.h>
 
